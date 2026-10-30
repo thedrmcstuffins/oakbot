@@ -1,0 +1,13 @@
+{
+  "name": "oaklands-discord-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord slash command for Oaklands daily material buffs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "register": "node register.js"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": { "discord.js": "^14.22.1", "dotenv": "^16.6.1" }
+}
